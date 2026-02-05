@@ -9,6 +9,11 @@ A static web application for testing DevOps knowledge through interactive quizze
 - One question displayed at a time
 - Immediate feedback with explanations
 - No backend required - fully static
+- Interactive quiz interface
+- Multiple choice questions
+- Immediate feedback on answers
+- Topic-based question filtering
+
 
 ## Project Structure
 devops-quiz-app/
