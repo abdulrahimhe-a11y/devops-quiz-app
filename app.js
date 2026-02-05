@@ -100,3 +100,10 @@ document.getElementById('next-btn').addEventListener('click', () => {
         displayQuestion();
     }
 });
+
+// Add this at the end of the file
+function resetQuiz() {
+    document.getElementById('quiz-section').style.display = 'none';
+    document.getElementById('topic-selection').style.display = 'block';
+    document.getElementById('topic-select').value = '';
+}
