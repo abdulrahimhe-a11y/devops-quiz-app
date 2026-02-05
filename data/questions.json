@@ -202,8 +202,75 @@
       ],
       "answerIndex": 0,
       "explanation": "Deployment frequency is a key DevOps metric that indicates how often teams can successfully release changes."
-    }
+    },
 
+    
+      {
+        "id": "Q16",
+        "topic": "Plan with DevOps",
+        "question": "What does 'Plan with DevOps' primarily involve?",
+        "options": [
+          "Only development tasks",
+          "Integrating planning, tracking, and feedback across teams",
+          "Separate planning for Dev and Ops",
+          "No planning needed"
+        ],
+        "answerIndex": 1,
+        "explanation": "'Plan with DevOps' emphasizes collaborative planning, visibility, and aligning work with business goals."
+      },
+      {
+        "id": "Q17",
+        "topic": "Plan with DevOps",
+        "question": "Which practice helps in DevOps planning?",
+        "options": [
+          "Waterfall schedules",
+          "Agile methodologies like Scrum or Kanban",
+          "Yearly planning only",
+          "No retrospective meetings"
+        ],
+        "answerIndex": 1,
+        "explanation": "Agile frameworks support iterative planning, frequent feedback, and adaptability in DevOps."
+      },
+      {
+        "id": "Q18",
+        "topic": "Monitoring",
+        "question": "What is the purpose of monitoring in a DevOps pipeline?",
+        "options": [
+          "Only track server uptime",
+          "Gather feedback on application performance and user experience",
+          "Replace logging",
+          "Eliminate alerts"
+        ],
+        "answerIndex": 1,
+        "explanation": "Monitoring provides real-time insights into system health, performance, and user experience, enabling quick response to issues."
+      },
+      {
+        "id": "Q19",
+        "topic": "Monitoring",
+        "question": "Which tool is commonly used for application monitoring?",
+        "options": [
+          "Git",
+          "Prometheus",
+          "Terraform",
+          "Jenkins"
+        ],
+        "answerIndex": 1,
+        "explanation": "Prometheus is a widely used open-source monitoring and alerting toolkit."
+      },
+      {
+        "id": "Q20",
+        "topic": "Monitoring",
+        "question": "What is 'observability' in DevOps?",
+        "options": [
+          "Only logging",
+          "Ability to infer internal system state from external outputs",
+          "Manual inspection of servers",
+          "Elimination of metrics"
+        ],
+        "answerIndex": 1,
+        "explanation": "Observability is about understanding system behavior through logs, metrics, and traces without needing to pre-define all failure modes."
+      }
+    
 
 
 ]
