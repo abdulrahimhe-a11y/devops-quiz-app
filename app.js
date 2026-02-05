@@ -42,3 +42,23 @@ function startQuiz() {
     
     displayQuestion();
 }
+
+function displayQuestion() {
+    const question = currentQuestions[currentQuestionIndex];
+    
+    document.getElementById('question-text').textContent = question.question;
+    
+    const optionsContainer = document.getElementById('options-container');
+    optionsContainer.innerHTML = '';
+    
+    question.options.forEach((option, index) => {
+        const button = document.createElement('button');
+        button.className = 'option-btn';
+        button.textContent = option;
+        button.onclick = () => checkAnswer(index);
+        optionsContainer.appendChild(button);
+    });
+    
+    document.getElementById('feedback-section').style.display = 'none';
+    document.getElementById('next-btn').style.display = 'none';
+}
