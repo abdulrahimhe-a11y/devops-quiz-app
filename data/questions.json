@@ -70,7 +70,7 @@
   "explanation": "A CD pipeline produces a deployable artifact that can be released to production at any time."
 },
 
-[
+
   {
     "id": "Q6",
     "topic": "Version Control Systems",
@@ -135,8 +135,75 @@
     ],
     "answerIndex": 1,
     "explanation": "'Shift Left' means integrating testing, security, and feedback earlier in the development process."
-  }
-]
+  },
+
+
+    {
+      "id": "Q11",
+      "topic": "Infrastructure as Code",
+      "question": "What is the main benefit of Infrastructure as Code (IaC)?",
+      "options": [
+        "Manual server configuration",
+        "Consistent and repeatable environments",
+        "Hardware dependency",
+        "Slower provisioning"
+      ],
+      "answerIndex": 1,
+      "explanation": "IaC allows infrastructure to be defined in code, enabling versioning, reuse, and consistent deployments."
+    },
+    {
+      "id": "Q12",
+      "topic": "Infrastructure as Code",
+      "question": "Which tool is commonly used for IaC?",
+      "options": [
+        "Git",
+        "Terraform",
+        "Jira",
+        "Selenium"
+      ],
+      "answerIndex": 1,
+      "explanation": "Terraform is a popular IaC tool for defining and provisioning cloud infrastructure."
+    },
+    {
+      "id": "Q13",
+      "topic": "Continuous Deployment",
+      "question": "How does Continuous Deployment differ from Continuous Delivery?",
+      "options": [
+        "No automated testing",
+        "Manual deployment to production",
+        "Fully automated deployment to production",
+        "No version control used"
+      ],
+      "answerIndex": 2,
+      "explanation": "Continuous Deployment automatically deploys every change that passes tests to production, without manual approval."
+    },
+    {
+      "id": "Q14",
+      "topic": "Continuous Deployment",
+      "question": "What is a prerequisite for successful Continuous Deployment?",
+      "options": [
+        "Comprehensive automated test suite",
+        "Manual testing only",
+        "Infrequent releases",
+        "No rollback strategy"
+      ],
+      "answerIndex": 0,
+      "explanation": "A robust automated testing strategy is essential to ensure only stable changes are deployed automatically."
+    },
+    {
+      "id": "Q15",
+      "topic": "Continuous Deployment",
+      "question": "Which metric is often tracked in Continuous Deployment?",
+      "options": [
+        "Deployment frequency",
+        "Number of manual deployments",
+        "Hours spent on meetings",
+        "Number of branches"
+      ],
+      "answerIndex": 0,
+      "explanation": "Deployment frequency is a key DevOps metric that indicates how often teams can successfully release changes."
+    }
+
 
 
 ]
