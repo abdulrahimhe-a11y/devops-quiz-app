@@ -68,8 +68,75 @@
   ],
   "answerIndex": 0,
   "explanation": "A CD pipeline produces a deployable artifact that can be released to production at any time."
-}
+},
 
+[
+  {
+    "id": "Q6",
+    "topic": "Version Control Systems",
+    "question": "What is a key advantage of Distributed Version Control Systems (DVCS) like Git?",
+    "options": [
+      "Centralized server dependency",
+      "Full local repository copy",
+      "No branching support",
+      "Slower operations"
+    ],
+    "answerIndex": 1,
+    "explanation": "DVCS allows each developer to have a complete local copy of the repository, enabling offline work and faster commits."
+  },
+  {
+    "id": "Q7",
+    "topic": "Version Control Systems",
+    "question": "In Git, what command creates a new branch?",
+    "options": [
+      "git checkout",
+      "git branch",
+      "git merge",
+      "git rebase"
+    ],
+    "answerIndex": 1,
+    "explanation": "git branch <name> creates a new branch, while git checkout -b <name> creates and switches to it."
+  },
+  {
+    "id": "Q8",
+    "topic": "DevOps Culture",
+    "question": "What is a core principle of DevOps culture?",
+    "options": [
+      "Siloed teams",
+      "Blame culture",
+      "Collaboration between Dev and Ops",
+      "Manual processes only"
+    ],
+    "answerIndex": 2,
+    "explanation": "DevOps emphasizes breaking down silos and fostering collaboration between development and operations teams."
+  },
+  {
+    "id": "Q9",
+    "topic": "DevOps Culture",
+    "question": "Which practice helps foster a DevOps culture?",
+    "options": [
+      "Separate incentives for Dev and Ops",
+      "Shared responsibility for deployments",
+      "Limited communication channels",
+      "Manual handoffs between teams"
+    ],
+    "answerIndex": 1,
+    "explanation": "Shared ownership of the entire software lifecycle encourages collaboration and faster feedback loops."
+  },
+  {
+    "id": "Q10",
+    "topic": "DevOps Culture",
+    "question": "What does 'Shift Left' mean in DevOps?",
+    "options": [
+      "Delaying testing until production",
+      "Moving testing and security earlier in the lifecycle",
+      "Moving all operations to development",
+      "Eliminating operations entirely"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Shift Left' means integrating testing, security, and feedback earlier in the development process."
+  }
+]
 
 
 ]
