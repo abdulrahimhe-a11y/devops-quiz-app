@@ -1,16 +1,77 @@
 
+[
+{
+  "id": "Q1",
+  "topic": "Continuous Integration",
+  "question": "What is the primary goal of Continuous Integration?",
+  "options": [
+    "Automatically deploy to production",
+    "Frequently integrate code changes into a shared repository",
+    "Eliminate the need for testing",
+    "Remove the need for branches"
+  ],
+  "answerIndex": 1,
+  "explanation": "Continuous Integration aims to detect integration issues early by merging changes frequently into a shared branch."
+},
 
 {
+  "id": "Q2",
+  "topic": "Continuous Integration",
+  "question": "Which practice is commonly associated with CI pipelines?",
+  "options": [
+    "Manual code reviews only",
+    "Running automated tests on every commit",
+    "Weekly deployment cycles",
+    "No version control"
+  ],
+  "answerIndex": 1,
+  "explanation": "CI pipelines automatically run tests on each commit to ensure code quality."
+},
 
-    "id": "Q1",
-    "topic": "Continuous Integration",
-    "question": "What is the primary goal of Continuous Integration?",
-    "options": [
-      "Automatically deploy to production",
-      "Frequently integrate code changes into a shared repository",
-      "Eliminate the need for testing",
-      "Remove the need for branches"
-    ],
-    "answerIndex": 1,
-    "explanation": "Continuous Integration aims to detect integration issues early."
-  }
+{
+  "id": "Q3",
+  "topic": "Continuous Delivery",
+  "question": "How does Continuous Delivery differ from Continuous Deployment?",
+  "options": [
+    "CD requires manual approval for deployment",
+    "CD does not use automated testing",
+    "CD only deploys once a month",
+    "CD does not use version control"
+  ],
+  "answerIndex": 0,
+  "explanation": "Continuous Delivery requires manual approval to deploy to production, while Continuous Deployment is fully automated."
+},
+
+{
+  "id": "Q4",
+  "topic": "Continuous Delivery",
+  "question": "What is a key benefit of Continuous Delivery?",
+  "options": [
+    "Slower release cycles",
+    "Reduced ability to roll back",
+    "Faster and more reliable releases",
+    "Elimination of staging environments"
+  ],
+  "answerIndex": 2,
+  "explanation": "CD enables teams to release software quickly and reliably by keeping the codebase always deployable."
+},
+
+{
+  "id": "Q5",
+  "topic": "Continuous Delivery",
+  "question": "Which artifact is typically produced in a CD pipeline?",
+  "options": [
+    "A ready-to-deploy package",
+    "Only compiled binaries",
+    "Raw source code only",
+    "Only documentation"
+  ],
+  "answerIndex": 0,
+  "explanation": "A CD pipeline produces a deployable artifact that can be released to production at any time."
+}
+
+
+
+]
+
+
