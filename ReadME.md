@@ -10,6 +10,8 @@ A static web application for testing DevOps knowledge through interactive quizze
 - Immediate feedback with explanations
 - No backend required - fully static
 
+-some changes from Student A .........................................................................
+
 ## Project Structure
 devops-quiz-app/
 ├── index.html # Main application page
